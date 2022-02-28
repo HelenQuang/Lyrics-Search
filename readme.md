@@ -1,6 +1,6 @@
 ## LyricsSearch App (Small Learning Project)
 
-Find songs, artists and lyrics using the [Genius API](https://docs.genius.com/#/getting-started-h1) API
+Find songs, artists and lyrics using the [Genius API](https://docs.genius.com/#/getting-started-h1)
 
 ## Project Specifications
 

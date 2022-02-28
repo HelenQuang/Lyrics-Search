@@ -14,6 +14,7 @@ body {
   font-family: "Fredoka", sans-serif;
   font-size: 20px;
   margin: 0;
+  width: 100%;
 }
 
 button {
@@ -95,11 +96,13 @@ form button {
 }
 
 .btn {
-  background-color: #89fbff;
+  background-color: var(--primary-color);
   border: 0;
   border-radius: 10px;
-  color: #fff;
+  color: #000;
   padding: 4px 10px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 18px;
 }
 
 ul.songs {
@@ -117,7 +120,7 @@ ul.songs li {
 .container {
   margin: 30px auto;
   max-width: 100%;
-  width: 500px;
+  width: 1000px;
 }
 
 .container h2 {
