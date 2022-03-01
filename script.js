@@ -19,7 +19,7 @@ const searchSongs = async (term) => {
     method: "GET",
     headers: {
       "x-rapidapi-host": "genius.p.rapidapi.com",
-      "x-rapidapi-key": config.RAPIDAPI_KEY,
+      "x-rapidapi-key": "4536126de6msh4930123a1a87c21p1e620ajsn29baca5b2d25",
     },
   });
   const data = await res.json();
