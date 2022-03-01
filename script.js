@@ -1,7 +1,6 @@
 const searchEl = document.getElementById("search");
 const resultEl = document.getElementById("result");
 const formEl = document.getElementById("form");
-const key = config.X_RAPIDAPI_KEY;
 
 // Event listeners
 formEl.addEventListener("submit", (e) => {
@@ -20,7 +19,7 @@ const searchSongs = async (term) => {
     method: "GET",
     headers: {
       "x-rapidapi-host": "genius.p.rapidapi.com",
-      "x-rapidapi-key": key,
+      "x-rapidapi-key": config.RAPIDAPI_KEY,
     },
   });
   const data = await res.json();
